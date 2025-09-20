@@ -3,8 +3,8 @@ const child_process = require("child_process");
 // Add your files here
 
 const start_files = [
-    "./main.js",
-    "./main2.js"
+    "./bot1.js",
+    "./bot2.js"
 ];
 
 // Don't edit below this line
