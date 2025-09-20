@@ -16,5 +16,11 @@ client.on("interactionCreate", async interaction => {
         await interaction.reply(`🎲 You rolled a ${roll}!`);
     }
 });
+client.on("messageCreate", msg => {
+    if (msg.content.toLowerCase() === "ping") {
+        msg.reply("Pong!");
+    }
+});
+
 
 client.login(process.env.DISCORD_TOKEN_BOT2);
